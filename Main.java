@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        byte a = 5;
+        byte a = 5; //задання значень
         byte aa = 6;
         short b = 22;
         short bb = 14;
@@ -17,13 +17,13 @@ public class Main {
         int r = 12;
         int rr = 92;
 
-        int g = r + rr;
+        int g = r + rr; //арифметична дія
         long f = c / cc;
         double x = d * dd;
         float z = e - ee;
         short v = (short) (b - bb);
         byte m = (byte) (aa - a);
-        System.out.println(g);
+        System.out.println(g); //вивід відповіді в консоль
         System.out.println(f);
         System.out.println(x);
         System.out.println(z);
